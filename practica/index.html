@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/header.css"/>
+    <link rel="stylesheet" href="./css/banner.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/images/logo-portfolio.png" alt="logo" width="80" height="80" />
+        </div>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="menu">                
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="banner" class="banner">
+        <picture>
+            <source srcset="./assets/images/banner-mobile.png" media="(max-width: 768px)">
+            <img src="./assets/images/banner-desktop.webp" alt="Goku en acción">
+        </picture>
+        <h1>¡Bienvenido al portfolio de Goku!</h1>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>Goku</h2>
+        <p>Soy Goku, un Saiyajin que busca superar los límites en cada batalla. Nací en el 
+            Planeta Vegeta, pero mi hogar siempre ha sido la Tierra, donde aprendí el valor de 
+            la amistad, el esfuerzo y la superación constante. Desde pequeño, he entrenado para 
+            convertirme en el guerrero más fuerte, no solo para proteger a quienes amo, sino para 
+            crecer como persona.</p>
+    
+        <h3>Habilidades</h3>
+        <div class="skill">
+            <p>Teletransportación:</p>
+            <div class="progress-bar"><span style="--progress-width: 50%;"></span></div>
+        </div>
+        <div class="skill">
+            <p>Entrenamiento constante:</p>
+            <div class="progress-bar"><span style="--progress-width: 90%;"></span></div>
+        </div>
+        <div class="skill">
+            <p>Defensa planetaria:</p>
+            <div class="progress-bar"><span style="--progress-width: 60%;"></span></div>
+        </div>
+        <div class="skill">
+            <p>Técnicas de combate legendarias:</p>
+            <div class="progress-bar"><span style="--progress-width: 70%;"></span></div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Formulario de contacto</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+    
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+    
+            <p>¿Cómo me conociste?</p>
+            <label><input type="radio" name="origen" value="Universidad" required> Universidad</label>
+            <label><input type="radio" name="origen" value="Keepcoding"> Keepcoding</label>
+            <label><input type="radio" name="origen" value="Colegio"> Colegio</label>
+            <label><input type="radio" name="origen" value="GitHub"> GitHub</label>
+    
+            <label for="github">Tag de GitHub:</label>
+            <input type="text" id="github" name="github" pattern="^@[^\s]+" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" maxlength="180" required></textarea>
+    
+            <label><input type="checkbox" name="newsletter"> Deseo recibir la newsletter</label>
+    
+            <div class="form-buttons">
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+            </div>
+        </form>
+    </section>
+    
+    <footer>
+        <ul>
+            <li><a href="https://twitter.com/goku" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/company/dragon-ball/" target="_blank">Linkedin</a></li>
+            <li><a href="https://youtu.be/1SKl3WOFZoE?si=ZB2d5Osu1O-19Nz7" target="_blank">YouTube</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
