@@ -6,6 +6,10 @@
     max-width: 1200px;
 }
 
+.projects h1 {
+    color: var(--secondary-color);
+}
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
