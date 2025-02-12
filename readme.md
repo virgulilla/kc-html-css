@@ -4,8 +4,8 @@ Este es un **portafolio** web inspirado en Goku (Dragon Ball), desarrollado excl
 El objetivo del proyecto es demostrar cómo se puede crear un sitio atractivo, responsivo y funcional solo con tecnologías fundamentales.
 
 ## Estructura del proyecto
-
-/portfolio/
+```
+/pract1ica/
 │── index.html             # Página principal del portafolio
 │── projects.html          # Sección de proyectos
 │── 404.html               # Página de error 404
@@ -24,6 +24,7 @@ El objetivo del proyecto es demostrar cómo se puede crear un sitio atractivo, r
 │   ├── form.css           # Estilos para el formulario de contacto
 │   ├── projects.css       # Estilos para organizar el listado de proyectos
 │── README.md 
+```
 
 ## Tecnologías usadas
 - HTML5 - Estructura semántica y accesible
@@ -34,9 +35,9 @@ El objetivo del proyecto es demostrar cómo se puede crear un sitio atractivo, r
 
 - Descarga o clona este repositorio
 
-``bash
+```bash
     git clone git@github.com:virgulilla/kc-html-css.git
-``
+```
 - Abre el archivo index.html en tu navegador
 
 ## Licencia
