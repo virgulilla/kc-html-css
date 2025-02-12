@@ -3,6 +3,10 @@
 Este es un **portafolio** web inspirado en Goku (Dragon Ball), desarrollado exclusivamente con **HTML** y **CSS**, sin uso de JavaScript ni frameworks adicionales.
 El objetivo del proyecto es demostrar cómo se puede crear un sitio atractivo, responsivo y funcional solo con tecnologías fundamentales.
 
+## demo
+
+https://virgulilla.github.io/kc-html-css/practica
+
 ## Estructura del proyecto
 ```
 /pract1ica/
