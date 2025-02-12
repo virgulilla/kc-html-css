@@ -1,5 +1,5 @@
 footer {
-    color: #fff;
+    color: var(--text-white);
     padding: 1.5em;
     text-align: center;
     background: linear-gradient(90deg, var(--main-color),var(--secondary-color), #ae2012, 
@@ -20,7 +20,7 @@ footer {
         }
 
         li a:hover {
-            color: var(--text-black);
+            color: var(--main-color);
         }
     }
 }

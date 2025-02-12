@@ -29,16 +29,21 @@
         background-color: #ae2012;
         height: 100%;
         border-radius: 5px;
-        animation: grow 2s ease-out forwards;
+        width: 0;
+        opacity: 0;
+        animation: grow 2s forwards;
+        animation-timeline: scroll(80% 80% auto);
     }
 }
 
 @keyframes grow {
     from {
         width: 0;
+        opacity: 0;
     }
     to {
         width: var(--progress-width);
+        opacity: 1;
     }
 }
 

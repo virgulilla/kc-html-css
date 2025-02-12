@@ -1,6 +1,6 @@
 .contact {
     padding: 2em;
-    background-color: #fff;
+    background-color: var(--text-white);
     margin: 20px auto;
     border-radius: 8px;
     max-width: 1200px;
