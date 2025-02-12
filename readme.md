@@ -38,7 +38,7 @@ El objetivo del proyecto es demostrar cómo se puede crear un sitio atractivo, r
 ```bash
     git clone git@github.com:virgulilla/kc-html-css.git
 ```
-- Abre el archivo index.html en tu navegador
+- Abre el archivo practica/index.html en tu navegador
 
 ## Licencia
 
