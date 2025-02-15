@@ -10,6 +10,18 @@
     color: var(--secondary-color);
 }
 
+@keyframes show {
+    from {
+        opacity: 25%;
+        scale: 10%
+    }
+    to {
+        opacity: 100%;
+        scale: 100%;
+    }
+}
+
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -20,7 +32,6 @@
         margin-top: 20px;
         border-radius: 5px;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
         display: flex;
         flex-direction: column;
 
@@ -29,6 +40,12 @@
             height: auto;
             object-fit: cover;
             max-height: 200px;
+            view-timeline-name: --image;
+            view-timeline-axis: blcok;
+            animation-timeline: --image;
+            animation-name: show;            
+            animation-fill-mode: both;
+            animation-range: entry 25% cover 50%;
         }
 
         .project-info {
