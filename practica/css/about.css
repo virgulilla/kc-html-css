@@ -21,7 +21,6 @@
     height: 20px;
     border-radius: 5px;
     margin-top: 5px;
-    overflow: hidden;
     position: relative;
 
     span {
@@ -31,8 +30,12 @@
         border-radius: 5px;
         width: 0;
         opacity: 0;
-        animation: grow 2s forwards;
-        animation-timeline: scroll(80% 80% auto);
+        view-timeline-name: --skill;
+        view-timeline-axis: blcok;
+        animation-timeline: --skill;
+        animation-name: grow;        
+        animation-range: entry 25% cover 20%;
+        animation-fill-mode: forwards;
     }
 }
 
