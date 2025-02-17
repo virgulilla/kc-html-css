@@ -91,13 +91,13 @@
                     <label for="telefono">Teléfono:</label>
                 <input type="tel" id="telefono" name="telefono" required>
                 </div>
-                <div class="form-group">
-                    <p>¿Cómo me conociste?</p>
+                <fieldset class="form-group">
+                    <legend>¿Cómo me conociste?</legend>
                     <label><input type="radio" name="origen" value="Universidad" required> Universidad</label>
                     <label><input type="radio" name="origen" value="Keepcoding"> Keepcoding</label>
                     <label><input type="radio" name="origen" value="Colegio"> Colegio</label>
                     <label><input type="radio" name="origen" value="GitHub"> GitHub</label>
-                </div>
+                </fieldset>
                 <div class="form-group">
                     <label for="github">Tag de GitHub:</label>
                     <input type="text" id="github" name="github" pattern="^@[^\s]+" required>
