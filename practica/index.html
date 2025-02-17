@@ -79,32 +79,39 @@
         <section id="contact" class="contact">
             <h2>Formulario de contacto</h2>
             <form action="#" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-        
-                <label for="apellidos">Apellidos:</label>
-                <input type="text" id="apellidos" name="apellidos" required>
-        
-                <label for="telefono">Teléfono:</label>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>                        
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
                 <input type="tel" id="telefono" name="telefono" required>
-        
-                <p>¿Cómo me conociste?</p>
-                <label><input type="radio" name="origen" value="Universidad" required> Universidad</label>
-                <label><input type="radio" name="origen" value="Keepcoding"> Keepcoding</label>
-                <label><input type="radio" name="origen" value="Colegio"> Colegio</label>
-                <label><input type="radio" name="origen" value="GitHub"> GitHub</label>
-        
-                <label for="github">Tag de GitHub:</label>
-                <input type="text" id="github" name="github" pattern="^@[^\s]+" required>
-        
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" maxlength="180" required></textarea>
-        
-                <label>
-                    <input type="checkbox" name="newsletter"> Deseo recibir la newsletter
-                </label>
-        
-                <div class="form-buttons">
+                </div>
+                <div class="form-group">
+                    <p>¿Cómo me conociste?</p>
+                    <label><input type="radio" name="origen" value="Universidad" required> Universidad</label>
+                    <label><input type="radio" name="origen" value="Keepcoding"> Keepcoding</label>
+                    <label><input type="radio" name="origen" value="Colegio"> Colegio</label>
+                    <label><input type="radio" name="origen" value="GitHub"> GitHub</label>
+                </div>
+                <div class="form-group">
+                    <label for="github">Tag de GitHub:</label>
+                    <input type="text" id="github" name="github" pattern="^@[^\s]+" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" maxlength="180" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="newsletter"> Deseo recibir la newsletter
+                    </label>
+                </div>
+                <div class="form-group form-buttons">
                     <button type="submit">Enviar</button>
                     <button type="reset">Resetear</button>
                 </div>
