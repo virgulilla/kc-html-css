@@ -7,16 +7,18 @@ header {
     position: sticky;
     top: 0;
     z-index: 5;
-    animation: fade-header 1 linear both;
+    transform-origin: top;
+    animation: scale-header linear both;
     animation-timeline: scroll(block nearest);
+    animation-range: 0px 200px;
 }
 
-@keyframes fade-header {
-    0% {
-        background-color: rgba(238, 155, 0, 1);
+@keyframes scale-header {
+    from {
+        height: 80px;
     }
-    100% {
-        background-color: rgba(238, 155, 0, 0.7);
+    to {
+        height: 40px;
     }
 }
 
