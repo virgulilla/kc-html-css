@@ -42,70 +42,74 @@
         </nav>
     </header>
     
-    <section id="banner" class="banner">
-        <img src="./assets/images/project_6.webp" alt="Goku en acción">
-        <h1>¡Bienvenido al portfolio de Goku!</h1>
-    </section>
-    
-    <section id="about" class="about">
-        <h2>Goku</h2>
-        <p>Soy Goku, un Saiyajin que busca superar los límites en cada batalla. Nací en el 
-            Planeta Vegeta, pero mi hogar siempre ha sido la Tierra, donde aprendí el valor de 
-            la amistad, el esfuerzo y la superación constante. Desde pequeño, he entrenado para 
-            convertirme en el guerrero más fuerte, no solo para proteger a quienes amo, sino para 
-            crecer como persona.</p>
-    
-        <h3>Habilidades</h3>
-        <div class="skill">
-            <p>Teletransportación:</p>
-            <div class="progress-bar"><span style="--progress-width: 50%;"></span></div>
-        </div>
-        <div class="skill">
-            <p>Entrenamiento constante:</p>
-            <div class="progress-bar"><span style="--progress-width: 90%;"></span></div>
-        </div>
-        <div class="skill">
-            <p>Defensa planetaria:</p>
-            <div class="progress-bar"><span style="--progress-width: 60%;"></span></div>
-        </div>
-        <div class="skill">
-            <p>Técnicas de combate legendarias:</p>
-            <div class="progress-bar"><span style="--progress-width: 70%;"></span></div>
-        </div>
-    </section>
-    
-    <section id="contact" class="contact">
-        <h2>Formulario de contacto</h2>
-        <form action="#" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-    
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" id="apellidos" name="apellidos" required>
-    
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-    
-            <p>¿Cómo me conociste?</p>
-            <label><input type="radio" name="origen" value="Universidad" required> Universidad</label>
-            <label><input type="radio" name="origen" value="Keepcoding"> Keepcoding</label>
-            <label><input type="radio" name="origen" value="Colegio"> Colegio</label>
-            <label><input type="radio" name="origen" value="GitHub"> GitHub</label>
-    
-            <label for="github">Tag de GitHub:</label>
-            <input type="text" id="github" name="github" pattern="^@[^\s]+" required>
-    
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" maxlength="180" required></textarea>
-    
-            <label><input type="checkbox" name="newsletter"> Deseo recibir la newsletter</label>
-    
-            <div class="form-buttons">
-                <button type="submit">Enviar</button>
-                <button type="reset">Resetear</button>
+    <main>
+        <section id="banner" class="banner">
+            <img src="./assets/images/project_6.webp" alt="Goku en acción">
+            <h1>¡Bienvenido al portfolio de Goku!</h1>
+        </section>
+        
+        <section id="about" class="about">
+            <h2>Goku</h2>
+            <p>Soy Goku, un Saiyajin que busca superar los límites en cada batalla. Nací en el 
+                Planeta Vegeta, pero mi hogar siempre ha sido la Tierra, donde aprendí el valor de 
+                la amistad, el esfuerzo y la superación constante. Desde pequeño, he entrenado para 
+                convertirme en el guerrero más fuerte, no solo para proteger a quienes amo, sino para 
+                crecer como persona.</p>
+        
+            <h3>Habilidades</h3>
+            <div class="skill">
+                <p>Teletransportación:</p>
+                <div class="progress-bar"><span style="--progress-width: 50%;"></span></div>
             </div>
-        </form>
-    </section>
+            <div class="skill">
+                <p>Entrenamiento constante:</p>
+                <div class="progress-bar"><span style="--progress-width: 90%;"></span></div>
+            </div>
+            <div class="skill">
+                <p>Defensa planetaria:</p>
+                <div class="progress-bar"><span style="--progress-width: 60%;"></span></div>
+            </div>
+            <div class="skill">
+                <p>Técnicas de combate legendarias:</p>
+                <div class="progress-bar"><span style="--progress-width: 70%;"></span></div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+        
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+        
+                <p>¿Cómo me conociste?</p>
+                <label><input type="radio" name="origen" value="Universidad" required> Universidad</label>
+                <label><input type="radio" name="origen" value="Keepcoding"> Keepcoding</label>
+                <label><input type="radio" name="origen" value="Colegio"> Colegio</label>
+                <label><input type="radio" name="origen" value="GitHub"> GitHub</label>
+        
+                <label for="github">Tag de GitHub:</label>
+                <input type="text" id="github" name="github" pattern="^@[^\s]+" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" maxlength="180" required></textarea>
+        
+                <label>
+                    <input type="checkbox" name="newsletter"> Deseo recibir la newsletter
+                </label>
+        
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetear</button>
+                </div>
+            </form>
+        </section>
+    </main>
     
     <footer>
         <ul>
