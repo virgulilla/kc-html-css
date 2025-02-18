@@ -78,6 +78,7 @@
     
             button {
                 padding: 10px 15px;
+                cursor: pointer;
                 border: none;
                 background-color: var(--secondary-color);
                 color: var(--text-white);
@@ -88,7 +89,6 @@
     
             button:hover {
                 background-color: var(--main-color);
-                cursor: pointer;
             }
         }
     }
