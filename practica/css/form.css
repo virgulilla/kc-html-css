@@ -12,6 +12,10 @@
             flex-direction: column;
             margin-bottom: 1rem;
         }
+        .form-group:last-child {
+            flex-direction: row;
+            justify-content: center;
+        }
 
         label {
             margin-top: 10px;
