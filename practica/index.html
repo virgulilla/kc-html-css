@@ -81,15 +81,15 @@
             <form action="#" method="POST" novalidate>
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="apellidos">Apellidos:</label>
-                    <input type="text" id="apellidos" name="apellidos" required>                        
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required>                        
                 </div>
                 <div class="form-group">
                     <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" required>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ejemplo: 687485526" required>
                 </div>
                 <fieldset class="form-group">
                     <legend>¿Cómo me conociste?</legend>
@@ -100,11 +100,12 @@
                 </fieldset>
                 <div class="form-group">
                     <label for="github">Tag de GitHub:</label>
-                    <input type="text" id="github" name="github" pattern="^@[^\s]+" title="Expected format @virgulilla" required>
+                    <input type="text" id="github" name="github" 
+                        pattern="^@[^\s]+" placeholder="@virgulilla" title="Expected format @virgulilla" required>
                 </div>
                 <div class="form-group">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" maxlength="180" required></textarea>
+                    <textarea id="mensaje" name="mensaje" maxlength="180" placeholder="Deja un mensaje..." required></textarea>
                 </div>
                 <div class="form-group">
                     <label>
