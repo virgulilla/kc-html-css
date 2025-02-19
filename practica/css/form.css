@@ -1,5 +1,5 @@
-.contact {
-    padding: 2em;
+.contact {    
+    padding: 1.5em;
     background-color: var(--text-white);
     margin: 20px auto;
     border-radius: 8px;
@@ -94,8 +94,8 @@
     }
 }
 
-@media (max-width: 768px) {  
+@media screen and (width > 768px) {  
     .contact {
-        padding: 1.5em;
+        padding: 2em;
     }
 }

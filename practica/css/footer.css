@@ -24,15 +24,3 @@ footer {
         }
     }
 }
-
-@media (max-width: 768px) {
-    .contact {
-        padding: 1.5em;
-
-        form input,
-        form textarea {
-            font-size: 0.9rem;
-        }
-    }
-    
-}

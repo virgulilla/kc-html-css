@@ -23,7 +23,7 @@ body {
 
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1em;
     color: var(--secondary-color);
 }
@@ -32,9 +32,12 @@ p {
     font-size: 1.2rem;
 }
 
-@media (max-width: 768px) {  
-    h2 {
-        font-size: 1.8rem;
-    }
+figure {
+    margin: 0;
+}
 
- }
+ @media screen and (width > 768px) { 
+    h2 {
+        font-size: 2rem;
+    }
+}
