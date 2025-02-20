@@ -7,10 +7,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 5;
-    transform-origin: top;
-    animation: scale-header linear both;
-    animation-timeline: scroll(block nearest);
-    animation-range: 0px 200px;
+    transform-origin: top;    
 
     #menu-toggle {
         display: none;
@@ -109,8 +106,19 @@ header {
     }
 }
 
+@media screen and (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: scroll()) {
+        header {
+            animation: scale-header linear both;
+            animation-timeline: scroll(block nearest);
+            animation-range: 0px 200px;
+        }
+    }
+}    
+
 @media screen and (width > 768px) {
     header {
+        height: 100px;
         .menu-icon {
             display: none;
         }
