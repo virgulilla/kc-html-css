@@ -7,26 +7,28 @@ header {
     position: sticky;
     top: 0;
     z-index: 5;
-    transform-origin: top;    
+    transform-origin: top;        
 
     #menu-toggle {
         display: none;
     }
 
-    #menu-toggle:checked ~ .menu {
-        transform: translateX(0);
-    }
-    
-    #menu-toggle:checked + .menu-icon span:nth-child(1) {
-        transform: rotate(45deg) translate(7px, 7px);
-    }
-    
-    #menu-toggle:checked + .menu-icon span:nth-child(2) {
-        opacity: 0;
-    }
-    
-    #menu-toggle:checked + .menu-icon span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
+    #menu-toggle:checked  {
+        & ~ .menu {
+            transform: translateX(0);
+        }
+
+        & + .menu-icon span:nth-child(1) {
+            transform: rotate(45deg) translate(7px, 7px);
+        }
+
+        & + .menu-icon span:nth-child(2) {
+            opacity: 0;
+        }
+
+        & + .menu-icon span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
     }
 
     .menu-icon {
@@ -102,7 +104,7 @@ header {
         height: 80px;
     }
     to {
-        height: 40px;
+        height: 43px;
     }
 }
 
