@@ -25,7 +25,7 @@
                 width: 0;
                 opacity: 0;
                 view-timeline-name: --skill;
-                view-timeline-axis: blcok;
+                view-timeline-axis: block;
                 animation-timeline: --skill;
                 animation-name: grow;        
                 animation-range: entry 25% cover 20%;
